@@ -1,0 +1,66 @@
+{
+    "products":[
+        {
+            "product":{
+                "name":"CUBE BOXES (Medium, 500mm)",
+                "sku":"SKU#: 0000000",
+                "productPrice":"$5.50",
+                "qtyPrice1":50,
+                "qtyPrice2":100,
+                "qtyPrice3":"2500+",
+                "percentSave1":"Save 7%",
+                "percentSave2":"Save 17%",
+                "afterSave1":"$5.11",
+                "afterSave2":"$4.54"
+            },
+            "specification":{
+                "unit":"Each",
+                "itemsperunit":1,
+                "length":"1140mm",
+                "depth":"900mm",
+                "width":"6567fchgf",
+                "loadtolerance":"00Kg",
+                "customprintingavailable":"Yes",
+                "printtype":"Plain",
+                "handles":"No",
+                "material":"Cardboard",
+                "minimumorderquantity":1,
+                "sustainability":"Recycled Cotennt 100%"
+            },
+            "productInfo":{
+                "availability":{
+                    "leadItems":"Lead Times: 2 to 3 weeks (Indicative for 50 Units)",
+                    "regionAvailable":"Region Available: Australia wide"
+                },
+                "features":[
+                    "Pallet Boxes - affordable boxes for shipping and storage for larger consignments",
+
+                    "Cardboard pallet boxes are heavy duty boxes and have excellent vertical strength",
+
+                    "If your packing requires burst strength - please call to discuss your needs with Visy Boxes and More"
+
+
+                ],
+                "customisation":[
+                    "Optional windows"
+                ],
+                "product":[
+                    "Example here (if relevant)"
+                ],
+                "benefits":[
+                    "More Sustainable - Up to 20% lighter weight with 39% reduced carbon footprint*",
+
+                    "Robust Barrier - Thansparent film option with high barrier protection keeping or extending shelf-life",
+
+                    "Product Appeal - Brighter colours and optional windows",
+
+                    "Robust Barrier - High barrier for full aroma and flavour"
+                ],
+                "sustainability":{
+                    "pcr":"PCR is plastic that has been used by consumers before, e.g. as rigid plastic bottles, then recycled and used to produce flexible films. We can offer flexible packaging with a percentage of PCR content"
+                }
+            }
+        }
+    ]
+    
+}

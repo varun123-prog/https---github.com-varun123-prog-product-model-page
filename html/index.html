@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Detail Page.</title>
+    <!--Create a Product Detail Page using custom model data-->
+
+    <!-- Add+ing external CSS file to index.html page  -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- <script src="https://kit.fontawesome.com/94efea45db.js" crossorigin="anonymous"></script> -->
+    <script src="../js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- header-section -->
+    <div class="header-section">
+      <div class="header-part-one ">
+        <p class="header-text-area margin-left-side-class">
+          YOUR CURRENT REGION: Australia, NSW
+          <span>(change)</span>
+        </p>
+      </div>
+
+      <div class="header-part-two">
+        <p class="header-text-area">
+          Need Assistance? <span>1800622626</span> or <span>CONTACT US</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- sub-header-section -->
+    <div class="sub-header-container margin-left-side-class margin-right-side-class">
+      <div class="header-image">
+        <img src="../assets/header-image.png" alt="header-image" />
+      </div>
+
+      <div class="sub-header-points">
+        <ul>
+          <li>SHOP</li>
+          <li>PRODUCTS</li>
+          <li>SERVICES</li>
+          <li>INDUSTRIES</li>
+          <li>SUSTAINABILITY</li>
+          <li>ABOUT VISY</li>
+        </ul>
+      </div>
+
+      <div class="sub-header-search">
+        <input type="text" id="input">
+        <img src="../assets/search-icon-image.png" alt="search-icon-image">
+      </div>
+
+      <div class="sub-header-local-icons">
+        <div class="login-icon">
+            <img src="../assets/login-images.png" alt="login-image" class="sub-header-icon-styling">
+        </div>
+
+        <div class="my-account">
+            MY ACCOUNT
+        </div>
+
+        <div class="heart-icon">
+            <img src="../assets/heart-icon.png" alt="heart-icon" class="sub-header-icon-styling">
+        </div>
+
+        <div class="cart-icon">
+            <img src="../assets/cart-image.png" alt="cart-icon" class="sub-header-icon-styling">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- horizontal-line -->
+    <hr class="horizontal-line">
+
+    <!-- back-to-result -->
+    <div class="back-to-result-container margin-left-side-class margin-right-side-class">
+        <div class="back-to-result-heading">
+            <span>Back to result</span>
+        </div>
+
+        <div class="back-to-result-compare">
+            <div class="compare-icon">
+                <img src="../assets/compare-icon.png" alt="compare-image" class="sub-header-icon-styling">
+            </div>
+
+            <div class="back-to-result-compare-heading">
+                <span>Compare</span>
+            </div>
+
+            <div class="back-to-result-love-icon">
+                <img src="../assets/heart-icon.png" alt="heart-image"  class="sub-header-icon-styling">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- cube-boxes -->
+    <div class="cube-box-container margin-left-side-class margin-right-side-class">
+
+        <div class="cube-box-part-one">
+            <div class="cube-box-part-one-box">
+                <img src="../assets/box-image.png" alt="box-image">
+            </div>
+            
+            <div class="cube-box-small-part">
+                <div class="cube-box-part-one-box-small">
+                    <img src="../assets/box-image.png" alt="">
+                </div>
+    
+                <div class="cube-box-part-one-box-small">
+                    <img src="../assets/box-image.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="cube-box-part-two">
+            <div class="cube-box-main-heading">
+                <h1 id="update-h1-heading">
+
+
+                </h1>
+                <p id="sku-update">
+
+
+                </p>
+                <h1 class="my-heading-cube" id="product-price">
+
+                </h1>
+            </div>
+
+            <div class="cube-box-quantity-container">
+                <div class="cube-box-quantity-part-one">
+                    <div class="cube-box-quantity">
+                        <p><span>QTY </span>(Minimum 1)</p>
+                        <p><span>UNIT</span></p>
+                    </div>
+
+                    <hr class="cube-box-hr">
+
+                    <div class="cube-box-quantity-price">
+                        <div class="quantity-values-one">
+                            <p id="product-price-state1">
+                                
+                            </p>
+                            <p id="product-price-state2">
+
+                            </p>
+                            <p id="product-price-state3">
+
+                            </p>
+                        </div>
+
+                        <div class="quantity-values-two">
+
+                            <div class="quantity-values-row-1">
+                                <p id="save-percent1">
+
+                                </p>
+    
+                                <p id="after-save-percent-1">
+
+                                </p>
+                            </div>
+                            
+                            <div class="quantity-values-row-2">
+                                <p id="save-percent2">
+
+                                </p>
+    
+                                <p id="after-save-percent-2">
+                                    
+                                </p>
+                            </div>
+
+
+                            <p id="enquire-underline">Enquire</p>
+
+                        </div>
+                    </div>
+
+                    <hr class="cube-box-hr">
+
+                    <div class="cube-box-addtocart-section">
+                        <div class="cube-box-addtocart-one">
+                            <p>-</p>
+                            <p>1</p>
+                            <p>+</p>
+                        </div>
+
+                        <div class="cube-box-addtocart-two">
+                            <p id="button-of-cube-box">
+                                ADD TO CART
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cube-box-quantity-part-two">
+                    <div class="cube-box-pricing">
+                        <p>For pricing, custom design and </p> <p>product assistance please </p>
+                        <p>make an enquiry.</p>
+                    </div>
+
+                    <div class="cube-box-pricing-button">
+                        <p>PRODUCT ENQUIRY</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- transaction-policy-dispatch -->
+            <div class="transaction-policy-dispatch">
+                <img src="../assets/lock-icon.png" alt="lock-icon" class="transaction-icon-styling">
+                <span> Secure transaction  </span>
+                <img src="../assets/paper-icon.png" alt="paper-icon" class="transaction-icon-styling-1">
+                <span> Returns policy </span>
+                <img src="../assets/truck-icons.png" alt="truck-icon" class="transaction-icon-styling-2">
+                <span> &nbsp Visit next day/ same day metro dispatch.</span>
+            </div>
+
+
+            <!-- specification-conntainer -->
+            <div class="specification-conntainer">
+                <div class="specification-heading">
+                    <p>Specifications</p>
+                </div>
+
+                <div class="download-spec-container">
+                    <p>Download Specs</p>
+                    <img src="../assets/paper-icon.png" alt="paper-icon" class="transaction-icon-styling-1">
+                </div>
+
+            </div>
+
+            <hr class="cube-box-hr">
+
+            <!-- specification-sublist -->
+            <div class="specification-sublist">
+                <div class="specification-sublist-one">
+                    <ul>
+                        <li>Unit</li>
+                        <li>Items Per Unit</li>
+                        <li>Length</li>
+                        <li>Depth</li>
+                        <li>Width</li>
+                        <li>Load tolerance/weight bearing</li>
+                        <li>Custom Printing Available</li>
+                        <li>Print Type</li>
+                        <li>Handles</li>
+                        <li>Material</li>
+                        <li>Minimum Order Quantity</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </div>
+
+                <div class="specification-sublist-two">
+                    <ul>
+                        <li id="unit"></li>
+                        <li id="items-per-unit"></li>
+                        <li id="length"></li>
+                        <li id="depth"></li>
+                        <li id="width"></li>
+                        <li id="load-tolerance"></li>
+                        <li id="custom-printing-available"></li>
+                        <li id="print-type"></li>
+                        <li id="handles"></li>
+                        <li id="material"></li>
+                        <li id="minimum-order-quantity"></li>
+                        <li id="sustainability"></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- product-info -->
+            <div class="product-info">
+                <p>Product Information</p>
+            </div>
+
+            <hr class="cube-box-hr">
+
+
+
+            <!-- availability-sustainability-container -->
+            <div class="availability-sustainability-container">
+                <p class="availability-sustainability-p availability-sustainability-margin">Availability</p>
+
+
+                <p class="availability-sustainability-p " id="leadItems"></p>
+                
+                <p class="availability-sustainability-p" id="regionAvailable">Region Available: Australia wide</p>
+
+
+                <p  class="availability-sustainability-p availability-sustainability-margin">Features</p>
+                <ul id="availability-sustainability-ul"
+                class="availability-sustainability-ul">
+                    
+                    <li><span>Cardboard pallet base,</span> sold separately.</li>
+                </ul>
+
+
+                <p class="availability-sustainability-p availability-sustainability-margin">Customisation Options 
+                <span class="availability-sustainability-span">(make an <span class="enquiry-section availability-sustainability-span">enquiry</span> to customise this product)</span>
+                <ul class="availability-sustainability-ul"
+                id="availability-customization-ul">
+                    
+
+                </ul>
+                </p>
+
+
+                <p class="availability-sustainability-p availability-sustainability-margin">Product Usage Examples</p>
+                <ul class="availability-sustainability-ul"
+                id="availability-productusage-ul">
+                    
+
+                </ul>
+
+
+                <p class="availability-sustainability-p availability-sustainability-margin">Benefits</p>
+                <ul class="availability-sustainability-ul" id="availability-benefits-ul">
+                    
+
+                </ul>
+                
+                
+                
+                <p class="availability-sustainability-p availability-sustainability-margin">Sustainability</p>
+                <p class="normal-style" id="availability-sustainability">
+
+
+                </p>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- related-products -->
+    <div class="related-products margin-left-side-class margin-right-side-class">
+        <p>Related Products</p>
+    </div>
+
+
+    <!-- related-products-carts -->
+    <div class="related-products-carts">
+
+        <!-- cart-box-1 -->
+        <div class="carts-box cart-margin-1-5">
+
+            <div class="compare-cart-section">
+
+                <div class="compare-compare">
+                    <img src="../assets/compare-icon.png" alt="compare-icon">
+                    &nbspCompare
+                </div>
+
+                <div class="cart-heart-icon">
+                    <img src="../assets/heart-icon.png" alt="heart-icon">
+                </div>
+
+            </div>
+
+            <div class="cart-box-icon">
+                <img src="../assets/box-image.png" alt="box-icon" class="box-icon-image">
+            </div>
+
+            <div class="cart-heading-one">
+                <p class="cart-bold-box">CUBE BOXES (MEDIUM, 550mm)</p>
+                <p class="cart-simple-class">SKU#: FC11401140</p>
+            </div>
+
+            <div class="cart-heading-two">
+                <p class="cart-bold-box">$5.50</p>
+                <p class="cart-simple-class">As low as $4.54</p>
+            </div>
+
+            <div class="cart-add-icons">
+
+                <div class="cart-minus-one-add">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+
+                <div class="cart-add-icon">
+                    <p>ADD</p>
+                    <img src="../assets/cart-image.png" alt="cart-image">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- cart-box-2 -->
+        <div class="carts-box">
+
+            <div class="compare-cart-section">
+
+                <div class="compare-compare">
+                    <img src="../assets/compare-icon.png" alt="compare-icon">
+                    &nbspCompare
+                </div>
+
+                <div class="cart-heart-icon">
+                    <img src="../assets/heart-icon.png" alt="heart-icon">
+                </div>
+
+            </div>
+
+            <div class="cart-box-icon">
+                <img src="../assets/box-image.png" alt="box-icon" class="box-icon-image">
+            </div>
+
+            <div class="cart-heading-one">
+                <p class="cart-bold-box">CUBE BOXES (MEDIUM, 550mm)</p>
+                <p class="cart-simple-class">SKU#: FC11401140</p>
+            </div>
+
+            <div class="cart-heading-two">
+                <p class="cart-bold-box">$5.50</p>
+                <p class="cart-simple-class">As low as $4.54</p>
+            </div>
+
+            <div class="cart-add-icons">
+
+                <div class="cart-minus-one-add">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+
+                <div class="cart-add-icon">
+                    <p>ADD</p>
+                    <img src="../assets/cart-image.png" alt="cart-image">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- cart-box-3 -->
+        <div class="carts-box">
+
+            <div class="compare-cart-section">
+
+                <div class="compare-compare">
+                    <img src="../assets/compare-icon.png" alt="compare-icon">
+                    &nbspCompare
+                </div>
+
+                <div class="cart-heart-icon">
+                    <img src="../assets/heart-icon.png" alt="heart-icon">
+                </div>
+
+            </div>
+
+            <div class="cart-box-icon">
+                <img src="../assets/box-image.png" alt="box-icon" class="box-icon-image">
+            </div>
+
+            <div class="cart-heading-one">
+                <p class="cart-bold-box">CUBE BOXES (MEDIUM, 550mm)</p>
+                <p class="cart-simple-class">SKU#: FC11401140</p>
+            </div>
+
+            <div class="cart-heading-two">
+                <p class="cart-bold-box">$5.50</p>
+                <p class="cart-simple-class">As low as $4.54</p>
+            </div>
+
+            <div class="cart-add-icons">
+
+                <div class="cart-minus-one-add">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+
+                <div class="cart-add-icon">
+                    <p>ADD</p>
+                    <img src="../assets/cart-image.png" alt="cart-image">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- cart-box-4 -->
+        <div class="carts-box">
+
+            <div class="compare-cart-section">
+
+                <div class="compare-compare">
+                    <img src="../assets/compare-icon.png" alt="compare-icon">
+                    &nbspCompare
+                </div>
+
+                <div class="cart-heart-icon">
+                    <img src="../assets/heart-icon.png" alt="heart-icon">
+                </div>
+
+            </div>
+
+            <div class="cart-box-icon">
+                <img src="../assets/box-image.png" alt="box-icon" class="box-icon-image">
+            </div>
+
+            <div class="cart-heading-one">
+                <p class="cart-bold-box">CUBE BOXES (MEDIUM, 550mm)</p>
+                <p class="cart-simple-class">SKU#: FC11401140</p>
+            </div>
+
+            <div class="cart-heading-two">
+                <p class="cart-bold-box">$5.50</p>
+                <p class="cart-simple-class">As low as $4.54</p>
+            </div>
+
+            <div class="cart-add-icons">
+
+                <div class="cart-minus-one-add">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+
+                <div class="cart-add-icon">
+                    <p>ADD</p>
+                    <img src="../assets/cart-image.png" alt="cart-image">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- cart-box-5 -->
+        <div class="carts-box cart-margin-1-5">
+
+            <div class="compare-cart-section">
+
+                <div class="compare-compare">
+                    <img src="../assets/compare-icon.png" alt="compare-icon">
+                    &nbspCompare
+                </div>
+
+                <div class="cart-heart-icon">
+                    <img src="../assets/heart-icon.png" alt="heart-icon">
+                </div>
+
+            </div>
+
+            <div class="cart-box-icon">
+                <img src="../assets/box-image.png" alt="box-icon" class="box-icon-image">
+            </div>
+
+            <div class="cart-heading-one">
+                <p class="cart-bold-box">CUBE BOXES (MEDIUM, 550mm)</p>
+                <p class="cart-simple-class">SKU#: FC11401140</p>
+            </div>
+
+            <div class="cart-heading-two">
+                <p class="cart-bold-box">$5.50</p>
+                <p class="cart-simple-class">As low as $4.54</p>
+            </div>
+
+            <div class="cart-add-icons">
+
+                <div class="cart-minus-one-add">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+
+                <div class="cart-add-icon">
+                    <p>ADD</p>
+                    <img src="../assets/cart-image.png" alt="cart-image">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- cart-box-6 -->
+        <div class="carts-box">
+
+            <div class="compare-cart-section">
+
+                <div class="compare-compare">
+                    <img src="../assets/compare-icon.png" alt="compare-icon">
+                    &nbspCompare
+                </div>
+
+                <div class="cart-heart-icon">
+                    <img src="../assets/heart-icon.png" alt="heart-icon">
+                </div>
+
+            </div>
+
+            <div class="cart-box-icon">
+                <img src="../assets/box-image.png" alt="box-icon" class="box-icon-image">
+            </div>
+
+            <div class="cart-heading-one">
+                <p class="cart-bold-box">CUBE BOXES (MEDIUM, 550mm)</p>
+                <p class="cart-simple-class">SKU#: FC11401140</p>
+            </div>
+
+            <div class="cart-heading-two">
+                <p class="cart-bold-box">$5.50</p>
+                <p class="cart-simple-class">As low as $4.54</p>
+            </div>
+
+            <div class="cart-add-icons">
+
+                <div class="cart-minus-one-add">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+
+                <div class="cart-add-icon">
+                    <p>ADD</p>
+                    <img src="../assets/cart-image.png" alt="cart-image">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- cart-box-7 -->
+        <div class="carts-box">
+
+            <div class="compare-cart-section">
+
+                <div class="compare-compare">
+                    <img src="../assets/compare-icon.png" alt="compare-icon">
+                    &nbspCompare
+                </div>
+
+                <div class="cart-heart-icon">
+                    <img src="../assets/heart-icon.png" alt="heart-icon">
+                </div>
+
+            </div>
+
+            <div class="cart-box-icon">
+                <img src="../assets/box-image.png" alt="box-icon" class="box-icon-image">
+            </div>
+
+            <div class="cart-heading-one">
+                <p class="cart-bold-box">CUBE BOXES (MEDIUM, 550mm)</p>
+                <p class="cart-simple-class">SKU#: FC11401140</p>
+            </div>
+
+            <div class="cart-heading-two">
+                <p class="cart-bold-box">$5.50</p>
+                <p class="cart-simple-class">As low as $4.54</p>
+            </div>
+
+            <div class="cart-add-icons">
+
+                <div class="cart-minus-one-add">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+
+                <div class="cart-add-icon">
+                    <p>ADD</p>
+                    <img src="../assets/cart-image.png" alt="cart-image">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- cart-box-8 -->
+        <div class="carts-box">
+
+            <div class="compare-cart-section">
+
+                <div class="compare-compare">
+                    <img src="../assets/compare-icon.png" alt="compare-icon">
+                    &nbspCompare
+                </div>
+
+                <div class="cart-heart-icon">
+                    <img src="../assets/heart-icon.png" alt="heart-icon">
+                </div>
+
+            </div>
+
+            <div class="cart-box-icon">
+                <img src="../assets/box-image.png" alt="box-icon" class="box-icon-image">
+            </div>
+
+            <div class="cart-heading-one">
+                <p class="cart-bold-box">CUBE BOXES (MEDIUM, 550mm)</p>
+                <p class="cart-simple-class">SKU#: FC11401140</p>
+            </div>
+
+            <div class="cart-heading-two">
+                <p class="cart-bold-box">$5.50</p>
+                <p class="cart-simple-class">As low as $4.54</p>
+            </div>
+
+            <div class="cart-add-icons">
+
+                <div class="cart-minus-one-add">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+
+                <div class="cart-add-icon">
+                    <p>ADD</p>
+                    <img src="../assets/cart-image.png" alt="cart-image">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- custom-boxes -->
+    <div class="custom-boxes margin-left-side-class margin-right-side-class">
+        <img src="../assets/box-image.png" alt="box-icon">
+        <p class="custom-box-p">Looking for a more tailored option? </p>
+        <p>Try our <span>&#60Custom&gt Boxes</span></p>
+    </div>
+
+    <!-- discover-more-solution -->
+    <div class="discover-more-solution margin-left-side-class margin-right-side-class">
+        <p>Discover more Solutions</p>
+    </div>
+
+    <!-- e-com-sale -->
+    <div class="e-com-sale margin-left-side-class margin-right-side-class">
+
+        <!-- ecom-one -->
+        <div class="e-commerce e-com-1-2">
+            <div class="ecom-img">
+                <img src="../assets/shopping-cart-icon.png" alt="shopping-cart-icon">
+            </div>
+            <div class="ecom-heading">
+                <h1>E-Commerce</h1>
+                <div class="ecom-parafraph">
+                    <p>Visy is a global leader in the</p>
+                    <p>packaging, papre and resource</p>
+                    <p>recovery industries.</p>
+                </div>
+                <a href="">Link</a>
+            </div>
+        </div>
+
+
+        <!-- ecom-two -->
+        <div class="e-commerce e-com-1-2">
+            <div class="ecom-img">
+                <img src="../assets/stack-icon.png" alt="stack-icon">
+            </div>
+            <div class="ecom-heading">
+                <h1>Point of Sale</h1>
+                <div class="ecom-parafraph">
+                    <p>Visy is a global leader in the</p>
+                    <p>packaging, papre and resource</p>
+                    <p>recovery industries.</p>
+                </div>
+                <a href="">Link</a>
+            </div>
+        </div>
+
+
+        <!-- ecom-three -->
+        <div class="e-commerce">
+            <div class="ecom-img">
+                <img src="../assets/truck-cart-icon.png" alt="truck-cart-icon" class="truck-cart-icon">
+            </div>
+            <div class="ecom-heading">
+                <h1>Logistics</h1>
+                <div class="ecom-parafraph">
+                    <p>Visy is a global leader in the</p>
+                    <p>packaging, papre and resource</p>
+                    <p>recovery industries.</p>
+                </div>
+                <a href="">Link</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- enquiry-container -->
+    <div class="enquiry-container">
+        <h1>We are here to help you.</h1>
+        <p class="enquiry-container-p">Looking for a solution, innovative ideas or advice? We'll help you quickly and easily.</p>
+        <div class="enquiry-container-button">
+            <p>Make an Enquiry</p>
+        </div>
+    </div>
+
+
+    <!-- footer-area -->
+    <div class="footer-area">
+
+        <div class="footer-area-image">
+            <img src="../assets/footer-image.png" alt="footer-image">
+        </div>
+
+        <div class="footer-text-area">
+            <div class="footer-text-area-onee">
+                <div class="footer-text-area-one">
+                    <div class="customer-service">
+                        <h1>Customer Service</h1>
+                        <ul>
+                            <li>My Account</li>
+                            <li>eVisy Login</li>
+                            <li>Support</li>
+                            <li>Locations</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+    
+                    <div class="company-service">
+                        <h1>Company</h1>
+                        <ul>
+                            <li>About Visy</li>
+                            <li>Sustainability</li>
+                            <li>News</li>
+                            <li>Carrers</li>
+                            <li>Pratt Industries</li>
+                        </ul>
+                    </div>
+    
+                    <div class="legal-service">
+                        <h1>Legals</h1>
+                        <ul>
+                            <li>Terms and Conditions</li>
+                            <li>Terms of Use</li>
+                            <li>Privacy</li>
+                        </ul>
+                    </div>
+    
+                </div>
+    
+                <div class="footer-text-area-two">
+                    <img src="../assets/insta-icon.png" alt="insta-icon">
+    
+                    <img src="../assets/fb-icon.png" alt="fb-icon">
+    
+                    <img src="../assets/twitter-icon.png" alt="twitter-icon">
+    
+                    <img src="../assets/linkdein-icon.png" alt="linkdein-icon">
+                </div>
+            </div>
+
+            <hr class="white-horizontal">
+
+            <!-- copyright -->
+            <div class="copyright">
+                <p>Copyright &#169;2021 Visy, All rights reserved.</p>
+            </div>
+
+
+        </div>
+        
+
+
+    </div>
+
+
+  </body>
+</html>
